@@ -1,0 +1,65 @@
+.crop-list {
+  width: 100%;
+  
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #4fc3f7, #0288d1);
+  position: relative;
+
+}
+
+.crop-list img {
+  max-width: 600px;
+  margin: 20px 0;
+}
+
+.crop-list table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: separate;   
+  border-spacing: 0 10px;     
+}
+
+.crop-list th {
+  background: #2e7d32;
+  color: white;
+  padding: 14px;
+  text-align: left;
+}
+
+.crop-list td {
+  background: white;
+  padding: 14px;
+}
+
+.crop-list tr {
+  border-radius: 10px;
+}
+
+.crop-list tr td:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.crop-list tr td:last-child {
+  border-radius: 0 10px 10px 0;
+}
+img {
+  max-height: 300px;
+  object-fit: contain;
+}
+.delete-btn {
+  background-color: #d32f2f;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+}
+
+.delete-btn:hover {
+  background-color: #b71c1c;
+}
+
+

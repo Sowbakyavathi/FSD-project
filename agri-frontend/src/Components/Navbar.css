@@ -1,0 +1,26 @@
+.navbar {
+  height: 70px;   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #2e7d32, #66bb6a);
+  padding: 0 30px;           
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+.navbar h1 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  font-weight: bold;
+}
